@@ -11,14 +11,14 @@ html {
 }
 
 body {
-  color: #8f8f8f;
+  color: #412E29;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 a {
   transition: all 0.3s ease;
-  color: #8f8f8f;
+  color: #412E29;
 }
 
 a:hover,
@@ -41,6 +41,7 @@ a:focus {
 
 .tm-section-pad-top {
   padding-top: 135px;
+  padding-bottom: 135px;
 }
 
 .tm-text-primary {
@@ -236,7 +237,11 @@ a:focus {
   margin-bottom: 55px;
   color: #3496d8;
 }
-
+/* Offer */
+#offers{
+  background-color: #EDE1D3;
+  color:  #412E29;
+}
 /* Work */
 
 .tm-work-description {
@@ -417,7 +422,7 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-background-color: #EDE1D3;
+  background-color: #fff;
   min-height: 450px;
   position: relative;
   padding-bottom: 50px;
@@ -570,7 +575,7 @@ p {
   }
 
   .navbar-collapse .nav-link {
-    color: #8f8f8f;
+    color: #412E29;
   }
 }
 
@@ -602,6 +607,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .tm-container-contact {
