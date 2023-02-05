@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server . -p 8081",
+    "dev": "http-server . -p 8091",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

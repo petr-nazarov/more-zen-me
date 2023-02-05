@@ -20,7 +20,26 @@
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
           <div class="tm-next">
-              <a href="#hero" class="navbar-brand">More zen me</a>
+              <a href="#hero" class="navbar-brand">
+                
+                <span class="brand-letter-light">
+                  M
+                  o
+                  r
+                  e 
+                </span>
+                <span class="brand-letter-dark">
+                  &nbsp;
+                  z
+                  e
+                  n
+                  &nbsp;
+                </span>
+                <span class="brand-letter-light">
+                  m
+                  e
+                </span>
+              </a>
           </div>             
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +61,27 @@
       
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">More zen me</h2>
-            <p class="tm-hero-subtitle">
+            <img src="/img/logo-big.png" width="400px">
+            <h2 class="tm-hero-title">
+              <span class="brand-letter-light">
+                M
+                o
+                r
+                e 
+              </span>
+              <span class="brand-letter-dark">
+                &nbsp;
+                z
+                e
+                n
+                &nbsp;
+              </span>
+              <span class="brand-letter-light">
+                m
+                e
+              </span>
+          </h2>
+            <p class="tm-hero-subtitle brand-letter-dark">
               Mindfulness and yoga
               <br />in Ramat Gan, Tel Aviv
             </p>
@@ -62,7 +100,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/profile.jpg" alt="Image" class="img-fluid tm-intro-img" />
+            <img src="img/profile-2.jpg" alt="Image" class="img-fluid tm-intro-img" />
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -131,9 +169,9 @@
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top tm-parallax-2">
+    <section id="contact">
       <div class="container tm-container-contact">
-          <h3>Contacts</h3> 
+          <h3 class="tm-text-primary">Contacts</h3> 
           <div class="contacts-container">
            <a href="https://t.me/Olly_lisa" class="contacts-element">
                <div class="contacts-element-image" >
@@ -221,14 +259,7 @@
       };
       
       $(function(){
-        // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
-        
-        // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
+    
 
         // Detect window scroll and update navbar
         $(window).scroll(function(e){          

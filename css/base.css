@@ -18,11 +18,13 @@ body {
 }
 a {
   transition: all 0.3s ease;
+  color: #8f8f8f;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
+  color:  #BA7826;
 }
 
 a:focus {
@@ -42,7 +44,7 @@ a:focus {
 }
 
 .tm-text-primary {
-  color: #3496d8;
+  color: #BA7826;
 }
 
 .tm-font-big {
@@ -81,13 +83,17 @@ a:focus {
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
+  text-transform: uppercase;
+}
+.brand-letter-light {
+  color: #BA7826;
+
+}
+.brand-letter-dark{
+  color: #412E29;
 }
 
 .navbar-brand:hover,
-.tm-navbar.scroll .navbar-brand:hover {
-  color: #3496d8;
-}
-
 .tm-navbar.scroll .navbar-brand {
   color: #8f8f8f;
 }
@@ -97,18 +103,10 @@ a:focus {
 }
 
 .tm-nav-link {
-  color: white;
+  color: #412E29;
 }
 
-.tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
-}
 
-.tm-navbar.scroll .tm-nav-link:hover,
-.tm-navbar.scroll .tm-nav-link.current,
-.tm-nav-link:hover {
-  color: #3496d8;
-}
 
 .navbar-toggler {
   border: 1px solid white;
@@ -133,8 +131,9 @@ a:focus {
 
 #hero {
 
-  background-image: url(../img/the-town-bg-01.jpg);
+  /* background-image: url(../img/the-town-bg-01.jpg); */
   /* background-image: url(../img/ramat-gan-2.jpg); */
+  background-color: #EDE1D3;
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -180,6 +179,7 @@ a:focus {
 .tm-hero-title {
   font-size: 3.5rem;
   text-shadow: 2px 2px 2px #333;
+  text-transform: uppercase;
 }
 
 .tm-intro-next {
@@ -205,7 +205,7 @@ a:focus {
 }
 
 .tm-down-arrow {
-  color: #c57e7d;
+  color: #BA7826;
   cursor: pointer;
   background: white;
   border-radius: 50%;
@@ -216,7 +216,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #3496d8;
+  background: #412E29;
 }
 
 /* Introduction */
@@ -417,10 +417,7 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+background-color: #EDE1D3;
   min-height: 450px;
   position: relative;
   padding-bottom: 50px;
@@ -608,14 +605,13 @@ p {
 }
 
 .tm-container-contact {
-  background: #FFFFFF;
   display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #3496d8; 
+
 }
 
 .contacts-container{
