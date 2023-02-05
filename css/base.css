@@ -6,6 +6,10 @@ https://templatemo.com/tm-525-the-town
 
 */
 
+:root {
+  color-scheme: light only;
+}
+
 html {
   font-size: 18px;
 }
